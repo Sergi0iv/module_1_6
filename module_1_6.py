@@ -5,10 +5,10 @@ print(my_dict.get('Anna'))
 print(my_dict.get('Nikolay'))
 my_dict.update({'Lena': 1990,'Dima': 1995})
 print(my_dict)
-del my_dict['Tolik']
+DEL_ = my_dict.pop('Tolik')
 print(my_dict)
-print(my_dict.get('Tolik'))
-print(my_dict)
+print(DEL_)
+
 
 my_set = {1,4,7,'Anna','Anna',7,7,4}
 print(my_set)
